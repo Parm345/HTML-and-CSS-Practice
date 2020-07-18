@@ -1,0 +1,48 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    text-align: center;
+    font-size: 25px;
+}
+
+#quote
+{
+    text-align: center;   
+    width: 1000px;
+}
+
+#carmack-img{
+    width: 950px;
+    height: 550px;
+    background-image: url(https://images.eurogamer.net/2015/articles/1/8/2/0/2/4/2/-1458817030009.jpg);
+    background-size:cover;
+}
+
+.date {
+    width: 100px;
+    height:7px;
+    text-align: center;
+    line-height: 26px;
+    float: left;
+    font-size: 14px;
+    border-top: 2px solid #ccc;
+    margin: -1px 0 0 0;
+    padding: 4px 5px 6px 0;
+    clear: left;
+    font-weight: bold;
+}
+
+.event {
+    width: 625px;
+    background: #f9f9f9;
+    float: left;
+    margin: 0;
+    padding: 8px 12px 8px 8px;
+    border-top: 1px solid #ccc;
+    clear: right;
+    font-size: 14px;
+}
