@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>100% a Trustworthy retailer</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         
@@ -67,58 +69,82 @@
 
         <br>
 
-        <p>Payment and Contact Info</p>
+        
+
+        <div class="credit-card">
+            <div class="form-header">
+                <h3 class="title">Payment Details</h3>
+            </div>
+
+            <div class="form-body">
+    
+                <div id="card-type">
+                    <input type="checkbox"> Mastercard </p>
+                    <input type="checkbox"> Visa </p>
+                    <input type="checkbox"> Debit </p>
+                </div>
+
+                <div class="card-number">
+                    <!--label >Credit Card Number:</label-->
+                    <input type="text" placeholder="Card Number Here"> 
+                </div>
+                
+                <div class="date-field">
+                    <div class="month">
+                        <!--label for="">Month: </label-->
+                        <select name="Month" id="">
+                            <option value="january">January</option>
+                            <option value="february">February</option>
+                            <option value="march">March</option>
+                            <option value="april">April</option>
+                            <option value="may">May</option>
+                            <option value="june">June</option>
+                            <option value="july">July</option>
+                            <option value="august">August</option>
+                            <option value="september">September</option>
+                            <option value="october">October</option>
+                            <option value="november">November</option>
+                            <option value="december">December</option>
+                        </select>
+                    </div>
+
+                    <div class="year">
+                        <!--label for="">Year: </label-->
+                        <select name="Year">
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="card-verification">
+                    <div class="cvv-input">
+                        <!--label for="">CVV</label-->
+                        <input type="text" placeholder="CVV">
+                    </div>
+                    <div class="cvv-details">
+                        <p>3 or 4 digits found on the back</p>
+                    </div>
+                </div>
+
+                <br>
+
+                <button class="proceed-btn"><a href="#">Proceed</a></button>
+                <button class="paypal-btn"><a href="#">Pay With Paypal</a></button>
+
+            </div>
+        </div>
 
         <br>
 
-        <div>
-            <label for="">Type: </label>
-            <input type="checkbox"> Mastercard </p>
-            <input type="checkbox"> Visa </p>
-            <input type="checkbox"> Debit </p>
-        </div>
-
-        <div>
-            <label for="">Credit Card Number:</label>
-            <input type="text" placeholder="Card Number Here"> 
-        </div>
-
-        <br>
-
-        <div>
-            <label for="">Month: </label>
-            <select name="Month" id="">
-                <option value="january">January</option>
-                <option value="february">February</option>
-                <option value="march">March</option>
-                <option value="april">April</option>
-                <option value="may">May</option>
-                <option value="june">June</option>
-                <option value="july">July</option>
-                <option value="august">August</option>
-                <option value="september">September</option>
-                <option value="october">October</option>
-                <option value="november">November</option>
-                <option value="december">December</option>
-            </select>
-        </div>
-
-        <br>
-
-        <div class="year">
-            <label for="">Year: </label>
-            <select name="Year">
-              <option value="2020">2020</option>
-              <option value="2021">2021</option>
-              <option value="2022">2022</option>
-              <option value="2023">2023</option>
-              <option value="2024">2024</option>
-              <option value="2025">2025</option>
-              <option value="2026">2026</option>
-              <option value="2027">2027</option>
-              <option value="2028">2028</option>
-            </select>
-        <div></div>
+        
         
     </body>
 </html>
